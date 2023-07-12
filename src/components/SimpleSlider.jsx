@@ -71,7 +71,6 @@ export default class SimpleSlider extends Component {
       };
 
     return (
-        <div className="App">
           <Slider {...settings}>
             {records.map((item) => (
               <div className="card">
@@ -90,7 +89,6 @@ export default class SimpleSlider extends Component {
               </div>
             ))}
           </Slider>
-        </div>
       );
     }
 }

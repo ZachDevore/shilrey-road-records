@@ -9,7 +9,8 @@ function MainNavbar() {
     { path: '/login', title: 'Login' },
     { path: '/logout', title: 'Logout' },
     { path: '/signup', title: 'Signup' },
-    { path: '/about', title: 'About Us'}
+    { path: '/about', title: 'About Us'},
+    
   ];
 
   return (
