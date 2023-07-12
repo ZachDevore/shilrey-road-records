@@ -53,7 +53,6 @@ function Signup() {
       <main className="container-signup">
         <Form className="row g-2" noValidate>
           <i className="bi bi-file-lock-fill auth-icon mt-3 text-center"/>
-          <p className="fw-normal text-center">Fill up the form and then click <strong>Sign up</strong> button to sign up.</p>
           <Form.Group as={Col} lg="6" controlId="inputFirstName">
             <FormLabel>First Name</FormLabel>
             <FormControl type="text"
@@ -98,19 +97,6 @@ function Signup() {
             </Form.Control.Feedback>
           </Form.Group>
           <Form.Group as={Col} md="12" controlId="inputUsername">
-            <Form.Label>Username</Form.Label>
-            <InputGroup hasValidation>
-              <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-              <Form.Control type="text"
-                            isInvalid={errors.username}
-                            placeholder="Username"
-                            aria-describedby="inputGroupPrepend"
-                            {...register('username', { required: true })}
-              />
-              <Form.Control.Feedback type="invalid">
-                {errors.username && 'Username is required'}
-              </Form.Control.Feedback>
-            </InputGroup>
           </Form.Group>
           <Form.Group as={Col} lg="12" controlId="inputPassword">
             <FormLabel>Password</FormLabel>

@@ -81,10 +81,6 @@ function Login() {
       <main className="container-auth text-center">
         <Form noValidate>
           <i className="bi bi-file-lock-fill auth-icon my-4"/>
-          <p className="mb-3 fw-normal">
-            Click <strong>Log in</strong> button to log into the admin console.
-            Use <strong>admin</strong>:<strong>qwerty</strong> to log in.
-          </p>
           <Form.Group className="form-floating" controlId="inputUsername">
             <FormControl type="text"
                          className="form-control form-input-top"
@@ -115,7 +111,7 @@ function Login() {
           </Form.Group>
           <div className="row mb-3">
             <div className="col-6"><Link to="/forgot">Forgot password</Link></div>
-            <div className="col-6"><Link to="/signup">New account</Link></div>
+            <div className="col-6"><Link to="/signup">Sign Up</Link></div>
           </div>
           <Button className="w-100 btn btn-lg btn-primary"
                   type="button"
