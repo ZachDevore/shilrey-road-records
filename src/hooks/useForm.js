@@ -1,5 +1,3 @@
-// CREDIT: modified from https://github.com/fgerschau/react-custom-form-validation-example/blob/master/src/useForm.ts
-
 import { useState } from 'react';
 
 function useForm(options) {

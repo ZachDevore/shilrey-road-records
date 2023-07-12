@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet';
 import { useNavigate } from 'react-router-dom';
 import ProductCarousel from '../components/ProductCarousel';
 import Product from '../components/Product';
+import SimpleSlider from '../components/SimpleSlider';
 
 function Home() {
   const title = 'React Bootstrap Template';
@@ -21,7 +22,8 @@ function Home() {
            
           </div>
         </div>
-        <ProductCarousel />
+        {/* <ProductCarousel /> */}
+        <SimpleSlider />
         {/* <Product /> */}
       </main>
     </>
