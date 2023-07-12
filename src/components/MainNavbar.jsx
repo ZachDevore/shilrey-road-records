@@ -9,13 +9,14 @@ function MainNavbar() {
     { path: '/login', title: 'Login' },
     { path: '/logout', title: 'Logout' },
     { path: '/signup', title: 'Signup' },
+    { path: '/about', title: 'About Us'}
   ];
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand d-flex pt-2" href="/">
-          <img src={logo} alt="" className="navbar-logo" />React-Bootstrap
+          <img src={logo} alt="" className="navbar-logo" />
         </a>
         <button className="navbar-toggler collapsed"
                 type="button"

@@ -41,24 +41,6 @@ const ProductCarousel = () => {
             ))}
           </div>
         </Carousel.Item>
-        <Carousel.Item>
-          <div className="flex justify-between">
-            {records.map((record) => (
-              <div key={record.id} className="flex-shrink-0">
-                <Product record={record} />
-              </div>
-            ))}
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="flex justify-between">
-            {records.map((record) => (
-              <div key={record.id} className="flex-shrink-0">
-                <Product record={record} />
-              </div>
-            ))}
-          </div>
-        </Carousel.Item>
       </Carousel>
     );
   };
